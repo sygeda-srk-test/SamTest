@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 import time
-import tdb
+#import tdb
 
 while 1 == 1:
     db = tdb.open(sys.argv[1])
