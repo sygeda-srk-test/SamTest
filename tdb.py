@@ -16,6 +16,7 @@ while 1 == 1:
             c = c+1
 
     sys.stdout.write("\rhalted %4d, connected %4d" % (h, c))
+
     sys.stdout.flush()
     db.close()
     time.sleep(3)
