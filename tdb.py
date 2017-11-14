@@ -14,9 +14,9 @@ while 1==1:
     if key[0:4]=='pppd':
         ls=db[key].split(";")
         if len(ls)<8:
-            h=h+1
+    	        h = h+1
         else:
-	c=c+1
+		c = c+1
 
     sys.stdout.write("\rhalted %4d, connected %4d" % (h,c))
     sys.stdout.flush()
