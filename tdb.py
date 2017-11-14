@@ -5,7 +5,7 @@ import time
 
 while 1 == 1:
 #db = tdb.open(sys.argv[1])
-    db=[]
+    db = {}
     h = c = 0
 
     for key in db:
