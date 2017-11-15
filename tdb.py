@@ -8,7 +8,6 @@ while 1 == 1:
     db = {}
     h = c = 0
 
-
     for key in db:
         if key[0:4] == 'pppd':
             ls = db[key].split(";")
