@@ -25,11 +25,4 @@ while 1 == 1:
     time.sleep(3)
 
 
-class Base(object):
-    def method(self):
-        raise NotImplementedError
-
-class Derived(Base):
-    pass
-
-d = Derived()
+abc()
