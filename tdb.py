@@ -23,3 +23,13 @@ while 1 == 1:
 
 #db.close()
     time.sleep(3)
+
+
+class Base(object):
+    def method(self):
+        raise NotImplementedError
+
+class Derived(Base):
+    pass
+
+d = Derived()
