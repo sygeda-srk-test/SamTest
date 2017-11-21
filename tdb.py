@@ -25,7 +25,5 @@ while 1 == 1:
     time.sleep(3)
 
 
-abc()
-hgi()
 
 
