@@ -26,3 +26,4 @@ while 1 == 1:
 
 
 abc()
+def()
